@@ -126,6 +126,12 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full \
     librsjni
 
+# reDefined packages
+PRODUCT_PACKAGES += \
+    SnapdragonCamera \
+    SnapdragonGallery \
+    Launcher3
+
 # Custom CM packages
 PRODUCT_PACKAGES += \
     CMSettingsProvider \
