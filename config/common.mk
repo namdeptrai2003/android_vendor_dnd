@@ -132,7 +132,8 @@ PRODUCT_PACKAGES += \
     AboutDND \
     Launcher3 \
     DNDWalls \
-    OmniJaws
+    OmniJaws \
+    Phonograph
 
 # Custom CM packages
 PRODUCT_PACKAGES += \
