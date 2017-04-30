@@ -133,7 +133,8 @@ PRODUCT_PACKAGES += \
     Launcher3 \
     DNDWalls \
     OmniJaws \
-    Phonograph
+    Phonograph \
+    ViaBrowser
 
 # Custom CM packages
 PRODUCT_PACKAGES += \
