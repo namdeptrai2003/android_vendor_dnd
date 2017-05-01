@@ -105,8 +105,7 @@ include vendor/cm/config/cmsdk_common.mk
 endif
 
 # Bootanimation
-#PRODUCT_PACKAGES += \
-#    bootanimation.zip
+$(call inherit-product, vendor/cm/prebuilt/common/bootanimation/bootanimation.mk)
 
 # Required CM packages
 PRODUCT_PACKAGES += \
