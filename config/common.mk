@@ -135,7 +135,8 @@ PRODUCT_PACKAGES += \
     OmniJaws \
     Phonograph \
     Amaze \
-    ViaBrowser
+    ViaBrowser \
+    Turbo
 
 # Custom CM packages
 PRODUCT_PACKAGES += \
