@@ -264,9 +264,9 @@ endif
 
 PRODUCT_VERSION = 1.5
 ifneq ($(DND_BUILDTYPE),)
-CM_VERSION := DarkNess-reDefined-N-v$(PRODUCT_VERSION)-$(shell date -u +%Y%m%d)-$(CM_BUILD)-$(DND_BUILDTYPE)
+CM_VERSION := DND-N-v$(PRODUCT_VERSION)-$(shell date -u +%Y%m%d)-$(CM_BUILD)-$(DND_BUILDTYPE)
 else
-CM_VERSION := DarkNess-reDefined-N-v$(PRODUCT_VERSION)-$(shell date -u +%Y%m%d)-$(CM_BUILD)
+CM_VERSION := DND-N-v$(PRODUCT_VERSION)-$(shell date -u +%Y%m%d)-$(CM_BUILD)
 endif
 
 PRODUCT_PROPERTY_OVERRIDES += \
