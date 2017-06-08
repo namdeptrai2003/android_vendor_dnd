@@ -135,7 +135,7 @@ PRODUCT_PACKAGES += \
     Launcher3 \
     DNDWalls \
     OmniJaws \
-    Phonograph \
+    DSPManager \
     Amaze \
     ViaBrowser \
     Turbo
